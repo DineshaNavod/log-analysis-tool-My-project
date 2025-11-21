@@ -21,54 +21,8 @@ All logs are **synthetic and safe for public use**, but realistic enough for res
 
 ---
 
-## 📂 Repository Structure
-
-ServerLogHub/
-│
-├── README.md
-├── LICENSE
-│
-├── access-logs/
-│ ├── access_log_day1.log
-│ ├── access_log_day2.log
-│ └── README.md
-│
-├── error-logs/
-│ ├── error_log_day1.log
-│ └── README.md
-│
-├── security-auth/
-│ ├── auth_log_bruteforce.log
-│ ├── auth_log_normal.log
-│ └── README.md
-│
-├── firewall/
-│ ├── firewall_events.log
-│ └── README.md
-│
-├── api-gateway/
-│ ├── api_requests.json
-│ └── README.md
-│
-└── system/
-├── kernel_dmesg.log
-└── README.md
-
-
 ---
 
-## 📚 Datasets Included
-
-| Dataset | Description | Format |
-|---------|-------------|--------|
-| **WebServer Access Logs** | Apache/Nginx-style logs including normal & suspicious activity | `.log` |
-| **WebServer Error Logs** | Error messages, warnings, misconfiguration events | `.log` |
-| **Auth/Security Logs** | Login attempts, failed logins, brute-force simulations | `.log` |
-| **Firewall Logs** | Blocked IPs, port scans, unusual traffic | `.log` |
-| **API Gateway Logs** | REST API usage, rate-limit violations, malformed requests | `.json` |
-| **System/Kernel Logs** | Kernel-style messages, warnings, and hardware events | `.log` |
-
----
 
 ## 🧩 Key Features
 
